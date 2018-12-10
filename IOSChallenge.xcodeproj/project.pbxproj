@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C68C981721BE5063004D3390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68C981621BE5063004D3390 /* AppDelegate.swift */; };
-		C68C981921BE5063004D3390 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68C981821BE5063004D3390 /* ViewController.swift */; };
 		C68C981C21BE5063004D3390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68C981A21BE5063004D3390 /* Main.storyboard */; };
 		C68C981F21BE5063004D3390 /* IOSChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C68C981D21BE5063004D3390 /* IOSChallenge.xcdatamodeld */; };
 		C68C982121BE5064004D3390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68C982021BE5064004D3390 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		C68C981321BE5063004D3390 /* IOSChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68C981621BE5063004D3390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C68C981821BE5063004D3390 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C68C981B21BE5063004D3390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C68C981E21BE5063004D3390 /* IOSChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOSChallenge.xcdatamodel; sourceTree = "<group>"; };
 		C68C982021BE5064004D3390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,14 +55,101 @@
 			isa = PBXGroup;
 			children = (
 				C68C981621BE5063004D3390 /* AppDelegate.swift */,
-				C68C981821BE5063004D3390 /* ViewController.swift */,
-				C68C981A21BE5063004D3390 /* Main.storyboard */,
-				C68C982021BE5064004D3390 /* Assets.xcassets */,
-				C68C982221BE5064004D3390 /* LaunchScreen.storyboard */,
-				C68C982521BE5064004D3390 /* Info.plist */,
+				C68C983321BE5362004D3390 /* View Controllers */,
+				C68C982E21BE532D004D3390 /* Models */,
+				C68C983121BE534D004D3390 /* Views */,
+				C68C982B21BE5310004D3390 /* Assets */,
+				C68C982F21BE533B004D3390 /* Storyboards & Xibs */,
+				C68C982D21BE5324004D3390 /* Http */,
+				C68C982C21BE531A004D3390 /* Enums */,
+				C68C983221BE5357004D3390 /* Tools */,
+				C68C983021BE5345004D3390 /* Supporting Files */,
 				C68C981D21BE5063004D3390 /* IOSChallenge.xcdatamodeld */,
 			);
 			path = IOSChallenge;
+			sourceTree = "<group>";
+		};
+		C68C982B21BE5310004D3390 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C68C982021BE5064004D3390 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C68C982C21BE531A004D3390 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		C68C982D21BE5324004D3390 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		C68C982E21BE532D004D3390 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C68C982F21BE533B004D3390 /* Storyboards & Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				C68C981A21BE5063004D3390 /* Main.storyboard */,
+				C68C982221BE5064004D3390 /* LaunchScreen.storyboard */,
+			);
+			path = "Storyboards & Xibs";
+			sourceTree = "<group>";
+		};
+		C68C983021BE5345004D3390 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C68C982521BE5064004D3390 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C68C983121BE534D004D3390 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C68C983521BE5390004D3390 /* Table view cells */,
+				C68C983421BE5377004D3390 /* Collection view cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C68C983221BE5357004D3390 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C68C983321BE5362004D3390 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C68C983421BE5377004D3390 /* Collection view cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Collection view cells";
+			sourceTree = "<group>";
+		};
+		C68C983521BE5390004D3390 /* Table view cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Table view cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +223,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C68C981921BE5063004D3390 /* ViewController.swift in Sources */,
 				C68C981F21BE5063004D3390 /* IOSChallenge.xcdatamodeld in Sources */,
 				C68C981721BE5063004D3390 /* AppDelegate.swift in Sources */,
 			);
@@ -289,6 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GB3B4GR6LQ;
 				INFOPLIST_FILE = IOSChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.salehmajidov.IOSChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,6 +392,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GB3B4GR6LQ;
 				INFOPLIST_FILE = IOSChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +400,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.salehmajidov.IOSChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
